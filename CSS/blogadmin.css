@@ -1,0 +1,194 @@
+
+
+.container-fluid {
+    flex: 1;
+}
+.fondo{
+    position: static;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 60px;
+    text-align: center;
+   
+}
+
+.copyright{
+    text-align: right;
+}
+
+.link{
+    border: none;
+    height: 100%;
+    width: 100%;
+}
+.copyright{
+    text-align: right;
+}
+
+/* Estilos para el botón del menú */
+.menu {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-btn {
+    background-color: #ffff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Estilos para el menú desplegable */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 380px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+    z-index: 1;
+    line-height: 10px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: 0.5s ;
+}
+
+.dropdown-content a:hover {
+    background-color: #ffff;
+    color: #FFC400;
+}
+
+/* Mostrar el menú desplegable al pasar el ratón sobre el botón */
+.menu:hover .dropdown-content {
+    display: block;
+}
+.servici{
+    text-decoration: none;
+    color: black;
+    opacity: 70%;
+    padding : 10px;
+    margin: 8px;
+
+}
+
+.servici:hover{
+    color: #FFC400;
+    transition:0.5s;
+}
+
+.men{
+    height: 35px;
+    width: 500px;
+    position: absolute;
+    left: 35%;
+    margin: 120px 0 0 -25px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+    border: solid black 0.5px;
+    background-color: rgba(0,0,0,0.01);
+
+    
+}
+
+
+.option{
+    border-radius: 10px;
+    border: solid black 0.5px;
+    background-color: rgba(0,0,0,0.01);
+}
+
+.ho{
+    position: relative;
+}
+
+
+.fondof{
+background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 30%, rgba(255,196,0,1) 82%);
+
+}
+
+.ini{
+    background-color: #FFC400;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffff;
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    border: 2px solid #eee;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: all 1s ease;
+    box-shadow: .1 #ccc,
+}
+
+.ini:hover{
+    box-shadow: 1rem#ccc
+}
+
+.ini:active{
+    box-shadow: inset 1rem #ccc
+}
+
+.reg{
+    background-color: #FFC400;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffff;
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    border: 2px solid #eee;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: all 1s ease;
+    box-shadow: .1 #ccc,
+}
+
+.reg:hover{
+    box-shadow: 1rem#ccc
+}
+
+.reg:active{
+    box-shadow: inset 1rem #ccc
+}
+
+
+.container-buttons{
+    position: absolute;
+    top: 30px; right: 3px;
+ 
+
+
+}
+.fondo{
+    position: static;
+}
+.olv{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.impu{
+    height:50px;
+    width:50px;
+    max-height:50px;
+    max-width:50px;
+    border-radius: 50px;
+
+}
+
